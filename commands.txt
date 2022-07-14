@@ -1,0 +1,11 @@
+ONE-TIME
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+NEXT-TIME
+python app.py
+
+PRECAUTIONS
+1. Name all the customers name without space
+2. Download .csv from sheets and upload
